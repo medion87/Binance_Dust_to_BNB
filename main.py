@@ -53,6 +53,7 @@ class DataManager:
 
 class main:
 	def run():
+		time.sleep(28800)
 		DUST = []
 		seperator = ','
 		symbols = DataManager.Symbols()
@@ -86,4 +87,3 @@ class main:
 
 if __name__ == '__main__':
 	itertools.repeat(main.run())
-	time.sleep(28800)
